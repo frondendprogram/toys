@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{ 
+    width: 100%;
+    height: 100%;
+}
+span, a{
+    display: inline-block;
+}
+.all{
+    border: 6px solid pink;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title{
+    color: palevioletred;
+    text-align: right;
+    margin: 15px 30px;
+}
+.btn{
+    background-color: white;
+    color: pink;
+    border: 4px solid pink;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+.text{
+    margin-bottom: 7px;
+}
+.tugma{
+    background-color: magenta;
+    color: white;
+    padding: 9px 11px;
+    border-radius: 20px;
+    border: none;
+}
+.quticha{
+    width: 20%;
+    border: 6px solid pink;
+    padding: 7px;
+}
+@media(max-width:1300px){
+    .quticha{
+        width: 33%;
+    }
+}
+@media(max-width:1000px){
+    .quticha{
+        width: 50%;
+    }
+}
+@media(max-width:700px){
+    .all{
+        margin: 0;
+    }
+}
+@media(max-width:550px){
+    .quticha{
+        width: 100%;
+    }
+}
